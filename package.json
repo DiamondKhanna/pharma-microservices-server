@@ -1,0 +1,18 @@
+{
+  "name": "lbg_pharmacy_backend",
+  "version": "1.0.0",
+  "description": "Its a node application which will serve requests for CRUD raised from Pharmacy UI app",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diamond Khanna",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
